@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap");
+
+body {
+  background-color: #eee;
+  font-family: Rubik;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.circle__one {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: #0e6ba8;
+  border: none;
+  top: -200px;
+  right: -200px;
+  position: fixed;
+}
+
+.circle__two {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: #0e6ba8;
+  border: none;
+  bottom: -200px;
+  left: -200px;
+  position: fixed;
+}
+
+.container__boxes {
+  height: 300px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px 40px;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 15%);
+  border-radius: 20px;
+  border: none;
+  margin: 10px;
+  position: relative;
+}
+.container__boxes h2 {
+  font-size: 16px;
+}
+
+.container__boxes p {
+  text-align: center;
+  font-size: 13px;
+}
+
+.number {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  color: gray;
+  background-color: white;
+  position: absolute;
+  top: -35px;
+}
+
+.number span {
+  font-size: 20px;
+  font-size: 30px;
+}
